@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unfold</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sheryjs/dist/Shery.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+  </head>
+  <body class="w-screen h-screen bg-black text-white overflow-x-hidden">
+    <div id="sub-body" class="w-[85%] h-full mx-auto">
+      <div
+        id="nav"
+        class="h-[70px] w-[86%] z-50 mx-auto bg-black opacity-90 fixed top-0 uppercase flex justify-between items-center"
+      >
+        <div id="logo" class="font-bold text-white text-3xl">unfold</div>
+        <div id="nav-r" class="flex gap-5 text-zinc-400 text-lg items-center">
+          <a href="/events"
+            ><div id="elems" class="px-2 py-2 hover:text-white">events</div></a
+          >
+          <a href="/about"
+            ><div id="elems" class="px-2 py-2 hover:text-white">
+              about us
+            </div></a
+          >
+          <a href="/register"
+            ><div id="elems" class="px-2 py-2 hover:text-white">
+              register
+            </div></a
+          >
+          <a href="/login"
+            ><div id="elems" class="px-2 py-2 hover:text-white">login</div></a
+          >
+        </div>
+      </div>
+
+      <div id="page1" class="w-full h-full relative top-[70px]">
+        <div id="content mt-[70px] w-full flex flex-col">
+          <div
+            id="anitext"
+            class="text-[6vw] font-bold text-zinc-300 uppercase text-center"
+          >
+            unleash your talent
+          </div>
+          <div id="img" class="">
+            <img src="/images/p1-img.jpg" alt="" class="w-[75%] mx-auto" />
+          </div>
+        </div>
+      </div>
+      <div id="page2" class="w-full h-[80%] bg-black">
+        <div
+          id="content-p2"
+          class="w-full relative flex flex-col justify-center items-center"
+        >
+          <div class="uppercase text-zinc-400 text-lg">agenda</div>
+          <div
+            id="matter"
+            class="uppercase w-[90%] text-zinc-800 leading-relaxed text-2xl text-center my-10"
+          >
+            "Discover and cultivate your talent with Unfold! Join our vibrant
+            community to showcase your skills and unleash your creativity.
+            Whether it's art, writing, coding, or any passion you pursue, Unfold
+            provides a platform to shine. Engage with fellow students, share
+            insights, and grow together. Embrace challenges, explore new
+            horizons, and let your potential flourish. Every contribution
+            matters as we celebrate diversity and individuality. Participate in
+            challenges, workshops, and events to hone your craft and gain
+            recognition. Your journey with Unfold is a testament to your unique
+            talents and the boundless possibilities that lie ahead. Seize the
+            opportunity and make your mark today!"
+          </div>
+        </div>
+      </div>
+      <div id="page3" class="w-full overflow-x-hidden bg-black">
+        <h1 id="exp" class="uppercase text-purple-50 text-[25vw]">
+          follow.your.passion
+        </h1>
+      </div>
+      <div
+        id="page4"
+        class="w-full h-[90%] overflow-x-hidden bg-black flex gap-10 items-center"
+      >
+        <div class="w-[50%] object-cover">
+          <img
+            src="https://images.unsplash.com/photo-1532522750741-628fde798c73?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+            id="img1"
+            class="w-full"
+          />
+        </div>
+        <div
+          class="w-[50%] flex flex-col justify-center items-center uppercase"
+        >
+          <div class="text-[3vw] font-semibold text-center">showcase technical skills</div>
+          <div
+            class="lowercase text-xl text-center text-zinc-100"
+            id="p4-matter"
+          >
+            Elevate your coding prowess with Unfold! Engage in challenges,
+            hackathons, and workshops to hone your skills. Embrace the journey
+            of growth and innovation. With enticing prize money awaiting, every
+            line of code you write could lead to victory. Join now and unleash
+            your potential in the world of coding!
+          </div>
+        </div>
+      </div>
+      <div id="page5" class="w-full h-[90%] overflow-x-hidden bg-black flex gap-10 items-center">
+        <div class="w-[50%] object-cover">
+          <img
+            src="https://images.unsplash.com/photo-1521547480571-2b6061babf76?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGRhbmNpbmclMjBhbmQlMjBzaW5naW5nfGVufDB8fDB8fHww"
+            alt=""
+            id="img2"
+            class="w-full"
+          />
+        </div>
+        <div
+          class="w-[50%] flex flex-col justify-center items-center uppercase"
+        >
+          <div class="text-[3vw] font-semibold text-center">showcase non-technical skills</div>
+          <div
+            class="lowercase text-xl text-center text-zinc-100"
+            id="p5-matter"
+          >
+            Elevate your coding prowess with Unfold! Engage in challenges,
+            hackathons, and workshops to hone your skills. Embrace the journey
+            of growth and innovation. With enticing prize money awaiting, every
+            line of code you write could lead to victory. Join now and unleash
+            your potential in the world of coding!
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/sheryjs/dist/Shery.js"
+    ></script>
+    <!-- Recommended -->
+    <script src="/javascripts/script.js"></script>
+  </body>
+</html>
